@@ -464,7 +464,7 @@ ul.social-icons.list-inline {
 	width: 98%;
 	left: 1%;
 	right: 1%;
-	height: 200px;
+	padding-bottom: 30px;
 	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
 }
 
@@ -497,7 +497,7 @@ ul.social-icons.list-inline {
 	padding: 50px 30px;
 	border:0px;
 }
-.content {
+.about-section .content {
 	display: flex;
 }
 
@@ -665,13 +665,247 @@ ul.social-icons.list-inline {
 }
 
 
-.mystory {
+.packages-section {
 	position: relative;
 	width: 98%;
 	left: 1%;
 	right:1%;
-	height: 500px;
+	
 	background:grey;
+}
+
+.pricing-tables {
+	position: relative;
+	width: 96%;
+	left:2%;
+	right: 2%;
+}
+.price {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.price .item {
+	height: 580px;
+	padding: 50px 15px;
+	background-color: white;
+	box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
+	border-radius: 5px;
+}
+
+.price .type h4 {
+	font-size: 16px;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.price .value {
+	margin-bottom: 30px;
+}
+
+.price .value h3 {
+	font-size: 40px;
+	display: inline-block;
+	position: relative;
+	font-weight: bold;
+	color: black;
+}
+
+.price . .active h3 {
+	color: white;
+}
+.price .value h3 span {
+	font-size: 12px;
+	position: absolute;
+	top: 0;
+	left: -27px;
+	color: black;
+
+}
+
+.price .features {
+	margin-bottom: 30px;
+}
+
+.price .features li {
+	font-size: 15px;
+	color: #777;
+	margin-bottom: 12px;
+}
+
+.price .features li:last-child {
+	margin-bottom: 0;
+}
+
+.price .active {
+	box-shadow: 0px 20px 40px -10px rgba(0, 0, 0, 0.5);
+	background-color: #1a2373;
+	background: linear-gradient(linear, left top, left bottom, from(#b19cd9), to(#7856bb));
+	background: linear-gradient(to bottom, #7856bb, #b19cd9);
+	color: white;
+}
+
+.price .active .features li {
+	color: #eee;
+}
+
+.price .active .butn span {
+	color: white;
+}
+
+.price .butn {
+	position: absolute; 
+	bottom: 30px; 
+	right: 20%; 
+	left: 20%;
+	padding: 10px 30px;
+	border-radius: 50px;
+	color: white;
+}
+
+.price .butn span {
+	font-size: 12px;
+}
+
+.butn-bg {
+	background: #1a2373;
+	border-color: : #1a2373;
+	color: white;
+}
+
+.price span a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.price ul li {
+	list-style: none;
+	font-weight: bold;
+}
+
+.price ul {
+	margin-left: -40px;
+}
+
+
+.mission-section {
+	position: relative;
+	width: 98%;
+	left:1%;
+	right:1%;
+	padding: 40px;
+	padding-bottom: 60px;
+	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+	
+}
+
+.mission-section h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	font-weight: bold;
+	color: #f4f5f0;
+	letter-spacing: 2px;
+}
+
+.mission-section p {
+	font-size: 20px;
+	color: #f4f5f0;
+
+}
+
+.youtube-section {
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../images/wall.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	
+}
+
+.youtube-section .title {
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.youtube-section .title h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+.youtube-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	padding:0;
+}
+
+.youtube-container .image {
+	flex:1;
+	position: relative;
+	top: 30px;
+	left: 3%;
+	width: 300px;
+	height: 400px;
+	
+}
+
+.youtube-container .image img {
+	transform: rotate(5deg);
+	width: auto;
+	height: 100%;
+
+	padding: 10px;
+	border: 2px solid black;
+}
+
+.youtube-text {
+	flex:1;
+}
+
+.youtube-text h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 60px;
+	font-weight: 500;
+	color: #f4f5f0;
+	padding-top: 70px;
+}
+
+
+.youtube-text p {
+	font-family: tahoma;
+	font-size: 24px;
+	color: #f4f5f0;
+	padding-top: 30px;
+}
+
+.videos {
+	padding: 20px;
+	margin-top: 80px;
+}
+
+.videos h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+
+.videos-list {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	width: 72%;
+	left: 14%;
+	right: 14%;
+}
+
+
+.video-list .video iframe {
+	width: 100%;
+	height: auto;
+
+	padding-right: 10px;
 }
 @media screen and (max-width: 968px) {
 
