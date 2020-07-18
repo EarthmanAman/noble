@@ -3,6 +3,7 @@
 	padding:0;
 }
 body {
+	background-image: url(../images/marble.jpg);
 	background-color:beige;
 	font-family: tahoma
 }
@@ -361,7 +362,7 @@ ul.social-icons.list-inline {
 	z-index: 1;
 	position: fixed;
 	top: 0px;
-	background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../images/grey.jpg);
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/grey.jpg);
 	background-size: 100% 100%;
 
 	box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.35)
@@ -412,21 +413,24 @@ ul.social-icons.list-inline {
 .landing-section {
 	background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url(../images/grey.jpg);
 	background-size: 100% 100%;
-	margin-left: 30px;
-	margin-right: 30px;
-	margin-bottom: 50px;
-	height: 450px;
+	position: relative;
+	padding-top: 20px;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	height: 480px;
 }
-
 
 .landing-container {
 	display: flex;
 	justify-content: center;
 	position: relative;
+	padding:0;
 }
 
 .landing-container .image {
 	flex:1;
+	padding-left: 10px;
 	
 }
 
@@ -452,6 +456,116 @@ ul.social-icons.list-inline {
 	height: 100%;
 }
 
+.clients {
+	position: relative;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	height: 200px;
+	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+}
+
+.clients .title {
+	width: 100%;
+	padding:20px;
+
+}
+
+.clients .title h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px;
+	font-weight: bold;
+
+	color: white;
+}
+.clients .client i {
+	font-size: 50px;
+	color: white;
+}
+
+.about-section {
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../images/test.jpg);
+	background-size: 100% 100%;
+	position: relative;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	height: 500px;
+	padding: 50px 30px;
+}
+.content {
+	display: flex;
+}
+
+.about-text {
+	flex:1;
+	padding: 50px;
+}
+
+.about-text h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 70px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.about-text h5 {
+	font-family: tahoma;
+	font-size: 35px;
+	margin-bottom: 30px;
+}
+
+.about-text p {
+	font-family: tahoma;
+	font-size: 24px;
+	letter-spacing: 2px;
+}
+.about-images {
+	flex:1;
+	position: relative;
+}
+
+.image1 {
+	position: absolute;
+	top: 75px;
+	left: 30px;
+	width: 180px;
+	z-index: 1;
+}
+
+.image1 img {
+	width: 100%;
+	height: auto;
+
+	transform: rotate(-15deg);
+}
+
+.image2 {
+	position: absolute;
+	width: 210px;
+	right: 33%;
+}
+
+.image2 img {
+	width: 100%;
+	height: auto;
+
+}
+
+.image3 {
+	position: absolute;
+	top: 75px;
+	right: 25px;
+	width: 180px;
+	z-index: 1;
+}
+
+.image3 img {
+	width: 100%;
+	height: auto;
+
+	transform: rotate(15deg);
+}
 @media screen and (max-width: 968px) {
 
 	.nav ul {

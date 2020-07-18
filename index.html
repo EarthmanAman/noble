@@ -4,18 +4,24 @@
 		<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Noble & Marble</title>
+	
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+	
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-
+	
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 
+	
 
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -118,7 +124,7 @@
 
 	<section class="landing-section wow slideInUp slow">
 		
-		<div class="container-fluid landing-container" style="padding:0">
+		<div class="container-fluid landing-container">
 			<div class="image">
 				<img src="images/image1.jpeg" alt="">
 			</div>
@@ -129,22 +135,107 @@
 		</div>
 	</section>
 
+	<section class="clients">
+		<div class="container">
+			<div class="row">
+				<div class="title wow slideInUp slow">
+					<h2 class="text-center">Featured In</h2>
+				</div>
+			</div>
+			<div class="row wow slideInUp slow">
+				<div class="col-md-12">
+					<div id="clients-list" class="owl-carousel owl-theme">
+						<div class="client">
+							<i class="fa fa-amazon"></i>
+						</div>
+						<div class="client">
+							<i class="fa fa-android"></i>
+						</div>
+						<div class="client">
+							<i class="fa fa-apple"></i>
+						</div>
+						<div class="client">
+							<i class="fa fa-amazon"></i>
+						</div>
+						<div class="client">
+							<i class="fa fa-android"></i>
+						</div>
+						<div class="client">
+							<i class="fa fa-apple"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
+	
+	<section class="about-section">
+		<div class="container-fluid content" style="padding:0">
+			<div class="about-text">
+				<h3>About Makandi</h1>
+				<h5>Linda Makandi A.K.A Makandi</h5>
+				<p>Makandi is a life coach, speaker and a mentor. <br> She is a lighthouse and a breath of fresh air</p>
+			</div>
+			<div class="about-images">
+				<div class="image1">
+					<img src="images/image1.jpg" alt="">
+				</div>
+				<div class="image2">
+					<img src="images/image2.png" alt="">
+				</div>
 
-
-
-
-
-
-
-
-
-
+				<div class="image3">
+					<img src="images/image1.jpg" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
 
 
 	
-	<section style="height: 1000px;"></section>
+
+
+
+
+
+
+
+
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		  $(".owl-carousel").owlCarousel();
+		})
+	</script>
+
+	<script>
+		$("#clients-list").owlCarousel({
+			items: 6,
+			autoplay:true,
+			smartSpeed: 700,
+			loop:true,
+			autoplsyHoverPause:true,
+			responsive: {
+				0: {
+					items:1
+				},
+				480: {
+					items:3
+				},
+				768: {
+					items:5
+				},
+				992: {
+					items:6
+				}
+			}
+		})
+	</script>
 	<script src="js/main.js"></script>
+
+
 	<script src="js/wow.min.js"></script>
 	<script>
 	 	new WOW().init();
