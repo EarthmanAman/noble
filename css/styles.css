@@ -3,6 +3,7 @@
 	padding:0;
 }
 body {
+	position: relative;
 	background-image: url(../images/marble.jpg);
 	background-color:beige;
 	font-family: tahoma
@@ -35,9 +36,10 @@ body {
 
 .left-bottom {
 	position: absolute;
-	top:2000px;
+	bottom:0px;
 	left: 5px;
 	width: 200px;
+	z-index: 1
 }
 
 .left-bottom img {
@@ -48,9 +50,10 @@ body {
 
 .right-bottom {
 	position: absolute;
-	top:2000px;
+	bottom:00px;
 	right: 0px;
 	width: 200px;
+	z-index: 1;
 }
 
 .right-bottom img {
@@ -532,7 +535,7 @@ ul.social-icons.list-inline {
 .image1 {
 	position: absolute;
 	top: 75px;
-	left: 30px;
+	left: 0px;
 	width: 180px;
 	z-index: 1;
 }
@@ -559,7 +562,7 @@ ul.social-icons.list-inline {
 .image3 {
 	position: absolute;
 	top: 75px;
-	right: 25px;
+	right: 10px;
 	width: 180px;
 	z-index: 1;
 }
@@ -587,12 +590,88 @@ ul.social-icons.list-inline {
 .services {
 	position: relative;
 	width: 98%;
-	height: 500px;
+	height: 600px;
 	left: 1%;
 	right: 1%;
 	background:lightgrey;
 
 	border:0px;
+}
+
+.services-title {
+	position: absolute;
+	top: -70px;
+
+	width: 100%;
+	text-align: center;
+}
+.services-title h3 {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	font-size: 30px;
+	color: black;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+
+.service-img {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.service-img img {
+	width: 100%;
+	cursor: pointer;
+}
+
+.service-img img:hover {
+	opacity: 0.9;
+}
+
+..service-img img:hover, h3 {
+	color: black
+}
+
+
+.services-item {
+	padding:0;
+}
+
+.services-item span {
+	float: left;
+	font-size: 45px;
+	color: #bfa67a;
+	line-height: 45px;
+}
+
+.services-single-item {
+	margin-left: 65px;
+}
+
+.services-heading {
+	margin-bottom: 8px;
+	padding-bottom: 10px;
+	position: relative;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 600;
+}
+
+
+
+.gaps {
+	margin-top: 50px;
+}
+
+
+.mystory {
+	position: relative;
+	width: 98%;
+	left: 1%;
+	right:1%;
+	height: 500px;
+	background:grey;
 }
 @media screen and (max-width: 968px) {
 
