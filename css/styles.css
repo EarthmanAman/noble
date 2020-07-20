@@ -6,7 +6,8 @@ body {
 	position: relative;
 	background-image: url(../images/marble.jpg);
 	background-color:beige;
-	font-family: tahoma
+	font-family: tahoma;
+	overflow-x: hidden;
 }
 
 .left-top {
@@ -814,7 +815,7 @@ ul.social-icons.list-inline {
 }
 
 .mystory-section {
-	background-image:linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1));
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
 	position: relative;
 	width: 98%;
 	left: 1%;
@@ -830,6 +831,7 @@ ul.social-icons.list-inline {
 	font-family: 'Dancing Script', cursive;
 	font-size: 50px;
 	font-weight: 700;
+	color: whitesmoke;
 	letter-spacing: 3px;
 }
 
@@ -839,11 +841,11 @@ ul.social-icons.list-inline {
 
 .mystory-image {
 	width: 100%;
-	height: 550px;
+	height: 500px;
 }
 
 .mystory-image img {
-	width: 90%;
+	width: 80%;
 	height: 100%;
 	padding: 5px;
 	border: 2px solid black;
@@ -869,6 +871,7 @@ ul.social-icons.list-inline {
 	text-align: center;
 	letter-spacing: 1.5px;
 	line-height: 40px;
+	color: whitesmoke;
 }
 
 .bio-section {
@@ -1141,6 +1144,113 @@ ul.social-icons.list-inline {
 .btn-send {
 	background: green;
 	padding: 13px 40px;
+}
+
+
+.footer-section {
+	background:lightgrey;
+	position: relative;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	padding: 70px;
+}
+
+.footer-section .title {
+	position: absolute;
+	top: 15px;
+}
+
+.footer-section .title h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: 700;
+	letter-spacing: 3px;
+	color: grey;
+	padding:5px;
+	border-bottom: 1px solid black;
+}
+.social {
+	padding-right:200px;
+}
+
+.social .link {
+	font-family: 'Dancing Script', cursive;
+	font-size: 30px;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.social .link span {
+	margin-right: 30px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: center;
+
+	margin-top: 30px;
+}
+
+.social-links i {
+	font-size: 40px;
+	color: black;
+	margin-right: 30px;
+}
+.sitemap ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+.sitemap ul li {
+	font-size: 25px;
+
+}
+
+.sitemap ul li a {
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	color: black;
+	letter-spacing: 3px;
+}
+.partners {
+	padding-left: 200px;
+}
+
+.partners ul{
+	list-style: none;
+	text-decoration: none;
+}
+
+.partners ul li {
+	font-size: 24px;
+}
+
+.partners ul li a {
+	font-family: 'Dancing Script', cursive;
+	font-weight: 700;
+	color: black;
+	letter-spacing: 3px;
+}
+
+.footer-bottom {
+	position: relative;
+	width: 98%;
+	left: 1%;
+	right: 1%;
+	
+	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+	text-align: center;
+	padding: 10px;
+	font-family: 'Dancing Script', cursive;
+	font-weight: bold;
+	letter-spacing: 3px;
+	color: white;
 }
 @media screen and (max-width: 968px) {
 
