@@ -1611,11 +1611,13 @@ ul.social-icons.list-inline {
 	}
 	.youtube-container {
 		flex-direction: column;
+		width: 500px;
 	}
 
 	.youtube-container .image {
 		left: 12%;
-		height: 250px;
+		width: 100%;
+		height: auto;
 		
 	}
 
@@ -1749,7 +1751,13 @@ ul.social-icons.list-inline {
 
 	.youtube-container .image {
 		left: 5%;
+		width: 300px;
 		
+	}
+
+	.youtube-container .image img {
+		width: 100%;
+		height: auto;
 	}
 }
 
@@ -1786,9 +1794,15 @@ ul.social-icons.list-inline {
 		z-index: 1;
 	}
 
+
 	.youtube-container .image {
 		left: 5%;
-		height: 250px;
+		width: 300px;
 		
+	}
+
+	.youtube-container .image img {
+		width: 100%;
+		height: auto;
 	}
 }
