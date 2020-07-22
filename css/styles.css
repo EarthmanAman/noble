@@ -998,7 +998,7 @@ ul.social-icons.list-inline {
 	display: flex;
 	justify-content: center;
 	position: relative;
-	width: 100%;
+	max-width: 100%;
 	padding:0;
 }
 
@@ -1613,7 +1613,7 @@ ul.social-icons.list-inline {
 	}
 	.youtube-container {
 		flex-direction: column;
-		width: 500px;
+		max-width: 500px;
 	}
 
 	.youtube-container .image {
@@ -1758,12 +1758,12 @@ ul.social-icons.list-inline {
 
 	.youtube-container .image {
 		left: 5%;
-		width: 300px;
+		max-width: 300px;
 		
 	}
 
 	.youtube-container .image img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 	}
 }
@@ -1804,12 +1804,12 @@ ul.social-icons.list-inline {
 
 	.youtube-container .image {
 		left: 5%;
-		width: 300px;
+		max-width: 300px;
 		
 	}
 
 	.youtube-container .image img {
-		width: 100%;
+		max-width: 100%;
 		height: auto;
 	}
 }
