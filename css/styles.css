@@ -1006,23 +1006,23 @@ ul.social-icons.list-inline {
 	flex:1;
 	position: relative;
 	top: 30px;
-	left: 10%;
-	height: 250px;
+	left: 10px;
 	
 }
 
 .youtube-container .image img {
 	transform: rotate(5deg);
-	width: auto;
-	height: 100%;
+	width: 100%;
+	height: auto;
 
 	padding: 10px;
 	border: 2px solid brown;
 }
 
 .youtube-text {
-	flex:1.5;
+	flex:1;
 	position: relative;
+	padding-left: 30px;
 }
 
 .youtube-text h1 {
@@ -1076,18 +1076,14 @@ ul.social-icons.list-inline {
 	padding-bottom: 15px;
 }
 
+
 .btn-sub {
 	padding: 15px 20px;
 	background: #b19cd9;
 	color: whitesmoke;
 }
 
-.video-list .video iframe {
-	width: 100%;
-	height: auto;
 
-	padding-right: 10px;
-}
 
 .testimonials-section {
 	background:lightgrey;
@@ -1634,6 +1630,18 @@ ul.social-icons.list-inline {
 	.youtube-text h1 {
 		text-align: center;
 	}
+	
+	.video {
+		max-width: 400px;
+	}
+	.videos-list .video iframe {
+		max-width: 100%;
+		height: auto;
+
+		padding-right: 10px;
+	}
+
+
 	.testimonials-list{
 		flex-direction: column;
 		padding:10px;
