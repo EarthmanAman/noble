@@ -137,7 +137,9 @@ html {
 }
 
 
-
+.mlogo {
+	display: none;
+}
 
 
 
@@ -543,7 +545,8 @@ ul.social-icons.list-inline {
 	width: 98%;
 	left: 1%;
 	right: 1%;
-	padding: 50px 30px;
+	padding: 50px 60px;
+	padding-bottom: 200px;
 	border:0px;
 }
 .about-section .content {
@@ -645,6 +648,7 @@ ul.social-icons.list-inline {
 	background:lightgrey;
 
 	border:0px;
+	padding-bottom: 180px;
 }
 
 .services-title {
@@ -1215,7 +1219,7 @@ ul.social-icons.list-inline {
 }
 
 .footer-section .title {
-	position: absolute;
+	position: relative;
 	top: 15px;
 }
 
@@ -1228,6 +1232,8 @@ ul.social-icons.list-inline {
 	padding:5px;
 	
 }
+
+
 .social {
 	padding-right:200px;
 }
@@ -1305,6 +1311,18 @@ ul.social-icons.list-inline {
 	letter-spacing: 3px;
 	color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 968px) {
 	
 	.header {
@@ -1390,12 +1408,40 @@ ul.social-icons.list-inline {
 		margin-top: 0px;
 	}
 
+	.mlogo {
+		display: block;
+		position: absolute;
+		top: 5px;
+		left: 4%;
+
+		width: 150px;
+		height: 150px;
+	}
+
+	.mlogo img {
+		width: 100%;
+		height: auto;
+	}
+
 
 	.landing-section {
 		padding-top: 10px;
 		width: 98%;
 		left: 1%;
 		right: 1%;
+	}
+
+
+	.social-media {
+		top: 50%;
+		padding-left: 10px;
+		z-index: 2
+	}
+	.social-media div {
+		padding:8px;
+		height: 40px;
+		width: 40px;
+		border-radius: 50px;
 	}
 
 
@@ -1476,10 +1522,12 @@ ul.social-icons.list-inline {
 		z-index: 1;
 	}
 	
-
+	.services {
+		padding-bottom: 70px;
+	}
 
 	.services-title {
-		top: -35px;
+		top: -25px;
 
 		width: 100%;
 		text-align: center;
@@ -1489,5 +1537,167 @@ ul.social-icons.list-inline {
 	.services-title h3 {
 		font-size: 24px;
 	}
+
+	.pricing-tables {
+		position: relative;
+		width: 84%;
+		left:8%;
+		right: 8%;
+	}
+	.price .item {
+		position: relative;
+		padding: 15px 15px;
+		background-color: white;
+		box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
+		border-radius: 5px;
+	}
+
+	.mission-section {
+		padding: 20px;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-image:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+		
+	}
+
+	.mission-section h2 {
+		font-family: 'Dancing Script', cursive;
+		font-size: 50px;
+		font-weight: bold;
+		color: #f4f5f0;
+		letter-spacing: 2px;
+	}
+
+	.mission-section p {
+		font-size: 20px;
+		color: #f4f5f0;
+
+	}
+
+	.mystory-image {
+		width: 100%;
+		height: 200px;
+	}
+
+	.mystory-text {
+		position: relative;
+		padding: 20px;
+		width: 96%;
+		left:2%;
+	}
 	
+
+	.bio {
+		flex-direction: column;
+	}
+
+	.bio-text {
+		order: 2;
+	}
+
+	.bio-text p {
+		line-height: 30px;
+	}
+
+	.youtube-container {
+		flex-direction: column;
+	}
+
+	.youtube-container .image {
+		left: 20%;
+		height: 250px;
+		
+	}
+
+	
+
+	.youtube-text {
+		padding-left: 70px;
+	}
+
+	.testimonials-list{
+		flex-direction: column;
+		padding:40px;
+		padding-bottom: 120px;
+	}
+
+	.testimonial {
+		margin-bottom: 5px;
+	}
+	
+
+	.contact-section {
+	
+		padding-bottom: 120px;
+	}
+
+	.contact-form {
+		width: 80%;
+		left: 10%;
+		right: 10%;
+	}
+
+
+	.footer-section {
+		flex-direction: column;
+		padding: 10px 70px;
+	}
+
+	.footer-section .title h3 {
+		font-size: 40px;
+		padding:20px 0px;
+		
+	}
+
+
+	.social {
+		flex:1;
+		width: 100%;
+		padding-right: 30px;
+	}
+	.social .link {
+		
+		font-size: 24px;
+	}
+
+	.social .link span {
+		margin-right: 10px;
+	}
+	
+
+	.partners {
+		padding-left: 0px;
+	}
+
+	.partners ul{
+		list-style: none;
+		text-decoration: none;
+	}
+
+	.partners ul li {
+		font-size: 24px;
+	}
+
+	.partners ul li a {
+		font-family: 'Dancing Script', cursive;
+		font-weight: 700;
+		color: black;
+		letter-spacing: 3px;
+	}
+
+	.footer-bottom {
+		position: relative;
+		width: 98%;
+		left: 1%;
+		right: 1%;
+		
+		background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+		text-align: center;
+		padding: 10px;
+		font-family: 'Dancing Script', cursive;
+		font-weight: bold;
+		letter-spacing: 3px;
+		color: white;
+	}
+
 }
