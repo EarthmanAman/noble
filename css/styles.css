@@ -1589,6 +1589,7 @@ ul.social-icons.list-inline {
 
 	.bio {
 		flex-direction: column;
+		padding-left: 0px;
 	}
 
 	.bio-text {
@@ -1598,13 +1599,22 @@ ul.social-icons.list-inline {
 	.bio-text p {
 		line-height: 30px;
 	}
+	
+	.bio-image {
+		overflow-x: hidden;
+		left: 0px;
+		
+	}
 
+	.bio-image  img {
+		padding: 0px;
+	}
 	.youtube-container {
 		flex-direction: column;
 	}
 
 	.youtube-container .image {
-		left: 20%;
+		left: 12%;
 		height: 250px;
 		
 	}
@@ -1617,7 +1627,7 @@ ul.social-icons.list-inline {
 
 	.testimonials-list{
 		flex-direction: column;
-		padding:40px;
+		padding:10px;
 		padding-bottom: 120px;
 	}
 
@@ -1700,4 +1710,85 @@ ul.social-icons.list-inline {
 		color: white;
 	}
 
+}
+
+@media screen and (max-width: 768px) {
+
+	.about-text {
+		
+		margin-top: 220px;
+	}
+	
+
+	.about-images {
+		padding-top: 0px;
+	}
+	.image1 {
+		top: 75px;
+		left: 0px;
+		width: 120px;
+		z-index: 1;
+	}
+
+	.image2 {
+		position: absolute;
+		width: 130px;
+		right: 33%;
+	}
+
+
+	.image3 {
+		position: absolute;
+		top: 75px;
+		right: 10px;
+		width: 120px;
+		z-index: 1;
+	}
+
+
+
+	.youtube-container .image {
+		left: 5%;
+		
+	}
+}
+
+@media screen and (max-width: 564px) {
+
+	.about-text {
+		
+		margin-top: 220px;
+	}
+	
+
+	.about-images {
+		padding-top: 0px;
+	}
+	.image1 {
+		top: 75px;
+		left: 0px;
+		width: 100px;
+		z-index: 1;
+	}
+
+	.image2 {
+		position: absolute;
+		width: 110px;
+		right: 33%;
+	}
+
+
+	.image3 {
+		position: absolute;
+		top: 75px;
+		right: 10px;
+		width: 100px;
+		z-index: 1;
+	}
+
+	.youtube-container .image {
+		left: 5%;
+		height: 250px;
+		
+	}
 }
