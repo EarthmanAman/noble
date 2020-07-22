@@ -976,7 +976,7 @@ ul.social-icons.list-inline {
 	background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(../images/wall.jpg);
 	background-size: 100% 100%;
 	position: relative;
-	padding-top: 20px;
+	
 	padding-bottom: 30px;
 	width: 98%;
 	left: 1%;
@@ -998,6 +998,7 @@ ul.social-icons.list-inline {
 	display: flex;
 	justify-content: center;
 	position: relative;
+	width: 100%;
 	padding:0;
 }
 
@@ -1005,7 +1006,7 @@ ul.social-icons.list-inline {
 	flex:1;
 	position: relative;
 	top: 30px;
-	left: 15%;
+	left: 10%;
 	height: 250px;
 	
 }
@@ -1020,7 +1021,8 @@ ul.social-icons.list-inline {
 }
 
 .youtube-text {
-	flex:1;
+	flex:1.5;
+	position: relative;
 }
 
 .youtube-text h1 {
@@ -1624,9 +1626,14 @@ ul.social-icons.list-inline {
 	
 
 	.youtube-text {
-		padding-left: 70px;
+		padding: 10px;
+		width: 100%;
+		text-align: center;
 	}
 
+	.youtube-text h1 {
+		text-align: center;
+	}
 	.testimonials-list{
 		flex-direction: column;
 		padding:10px;
