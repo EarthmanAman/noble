@@ -1470,13 +1470,17 @@ ul.social-icons.list-inline {
 		font-size: 18px;
 		padding-top: 30px;
 	}
-
+	
+	.about-section {
+		padding: 20px 30px;
+		padding-bottom: 70px;
+	}
 	.about-section .content{
 		flex-direction: column;
 	}
 	.about-text {
 		order: 2;
-		padding: 20px;
+		padding: 10px;
 		margin-top: 280px;
 	}
 	
@@ -1580,9 +1584,10 @@ ul.social-icons.list-inline {
 
 	.mystory-text {
 		position: relative;
-		padding: 20px;
-		width: 96%;
-		left:2%;
+		padding: 20px 5px;
+		width: 98%;
+		left:1%;
+		right: 1;
 	}
 	
 
@@ -1789,24 +1794,24 @@ ul.social-icons.list-inline {
 		padding-top: 0px;
 	}
 	.image1 {
-		top: 75px;
+		top: 40px;
 		left: 0px;
-		width: 100px;
+		width: 130px;
 		z-index: 1;
 	}
 
 	.image2 {
 		position: absolute;
-		width: 110px;
+		width: 140px;
 		right: 33%;
 	}
 
 
 	.image3 {
 		position: absolute;
-		top: 75px;
+		top: 40px;
 		right: 10px;
-		width: 100px;
+		width: 130px;
 		z-index: 1;
 	}
 
