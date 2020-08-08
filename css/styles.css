@@ -4,8 +4,7 @@
 }
 body {
 	position: relative;
-	background-image: url(../images/marble.jpg);
-	background-color:beige;
+	background: lightgrey;
 	font-family: tahoma;
 	overflow-x: hidden;
 }
@@ -91,6 +90,7 @@ html {
 	overflow:hidden;
 	height: 150px;
 	padding-top: 20px;
+	background: lightgrey;
 }
 
 .nav {
@@ -512,7 +512,7 @@ ul.social-icons.list-inline {
 	left: 1%;
 	right: 1%;
 	padding-bottom: 30px;
-	background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+	background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
 }
 
 .clients .title {
@@ -1002,14 +1002,14 @@ ul.social-icons.list-inline {
 	flex:1;
 	position: relative;
 	top: 30px;
-	left: 10px;
+	left: 15%;
 	
 }
 
 .youtube-container .image img {
 	transform: rotate(5deg);
-	width: 100%;
-	height: auto;
+	width: 300px;
+	height: 400px;
 
 	padding: 10px;
 	border: 2px solid brown;
