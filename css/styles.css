@@ -108,6 +108,8 @@ html {
 
 .nav ul {
 	display: flex;
+	width: 60%;
+	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 }
@@ -486,7 +488,7 @@ ul.social-icons.list-inline {
 
 .landing-text {
 	flex:1;
-	border: 2px solid black;
+	/*border: 2px solid black; */
 }
 
 .landing-text h1 {
@@ -1099,7 +1101,7 @@ ul.social-icons.list-inline {
 .testimonial {
 	text-align: center;
 	padding: 30px;
-	border: 0.5px solid black;
+	/*border: 0.5px solid black; */
 	margin-right: 5px;
 }
 
